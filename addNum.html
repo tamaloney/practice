@@ -1,0 +1,21 @@
+: )
+<br/> Add two numbers:
+<html>
+  <script language="javascript">
+      function addNumbers(x,y) {
+      var x = document.getElementById("txt1").value;
+      var y = document.getElementById("txt2").value;
+      var ans=document.getElementById("ans");
+      ans.value=(parseInt(x) + parseInt(y));
+      }
+  </script>
+<body>
+  <br/>
+  <br/>
+  <input type="text" id="txt1" name="text1"> +
+  <input type="text" id="txt2" name="text2"> =
+  <input type ="button" name="Submit" value="Add!" onclick="javascript:addNumbers()"/>
+  <input type="text" id="ans" name="answer">
+
+</body>
+</html>
